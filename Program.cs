@@ -8,15 +8,15 @@ namespace CodeSignalArcade
     {
         private static Dictionary<string, Type> Challenges = new Dictionary<string, Type>
         {
-            {"1", typeof(AddBorder) },
-            {"2", typeof(AdjacentElementsProduct) },
-            {"3", typeof(AlternatingSums) },
-            {"4", typeof(ArrayConsecutiveStatues) },
-            {"5", typeof(CommonCharacterCount) },
-            {"6", typeof(IsLuckyNumber) },
-            {"7", typeof(Palindrome) },
-            {"8", typeof(ReverseInParentheses) },
-            {"9", typeof(SortByHeight) },
+            {"3", typeof(Palindrome) },
+            {"4", typeof(AdjacentElementsProduct) },
+            {"6", typeof(ArrayConsecutiveStatues) },
+            {"10", typeof(CommonCharacterCount) },
+            {"11", typeof(IsLuckyNumber) },
+            {"12", typeof(SortByHeight) },
+            {"13", typeof(ReverseInParentheses) },
+            {"14", typeof(AlternatingSums) },
+            {"15", typeof(AddBorder) }
         };
         static void Main(string[] args)
         {
